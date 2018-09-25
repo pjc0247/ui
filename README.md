@@ -39,3 +39,23 @@ img {
   height: 100;
 }
 ```
+
+DogeCoinDark
+----
+```cs
+[UtmlElementName("ctext")]
+class CustomText : UtmlElement {
+
+  // This is a utml constructor.
+  public static void Construct(GameObject go, UtmlConstructionData cd) {
+    var text = go.AddComponent<Text>();
+    text.text = cd.innerText;
+    
+    if (cd.HasAttribute("bold"))
+      text.style = TextStyle.Bold;
+  }
+}
+```
+```html
+<ctext bold>Hello World!</ctext>
+```
