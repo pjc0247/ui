@@ -1,11 +1,18 @@
 # ui
 Unity Interface
 
+Doge coin
+----
 <img align="left" src="sample.jpg">
 
 ```html
 <body>
-  <text id="title">Welcome to Unity!</text>
+  <img id="thumbnail" src="thumbnail.jpg" />
+  <div>
+    <text id="title">SuperMania2</text>
+    <text id="developer">Junchul Park</text>
+    <button id="install">INSTALL</button>
+  </div>
   
   <scroll>
      <img src="1.jpg" />
