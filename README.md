@@ -59,3 +59,23 @@ class CustomText : UtmlElement {
 ```html
 <ctext bold>Hello World!</ctext>
 ```
+
+Inline Style
+----
+```html
+<utml>
+  <vertical>
+    <text>Hello</text>
+    <text>World</text>
+  </vertical>
+  
+  <style>
+    text {
+      color: red;
+    }
+  </style>
+</html>
+```
+
+Bindings
+----
