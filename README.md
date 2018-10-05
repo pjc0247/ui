@@ -1,7 +1,7 @@
 # ui
 Unity Interface
 
-Doge coin
+Overview
 ----
 <img align="left" src="sample.jpg">
 
@@ -40,7 +40,7 @@ img {
 }
 ```
 
-DogeCoinDark
+Custom Elements
 ----
 ```cs
 [UtmlElementName("ctext")]
