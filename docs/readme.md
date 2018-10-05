@@ -11,6 +11,10 @@ Goals
 
 Data binding
 ----
+Modern web frameworks have its own data binding systems.<br>
+__UTML__ also implemented this features for make it easy to communicate between __Controller__ and __View__ with __Data__.<br>
+
+Here is a most simpleast example for one-way data binding:
 ```HTML
 <Text>{{message}}</Text>
 ```
@@ -19,7 +23,7 @@ class HelloWorldContext : Context {
     public string message = "Hello World";
 
     void OnClick() {
-        // This automatically chanes the content.
+        // This automatically changes the content.
         message = "Bye World";
     }
 }
